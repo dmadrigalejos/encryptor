@@ -10,10 +10,13 @@ for i in range(len(input_str)):
     #   if e, change to &
     if input_str[i] == "e":
         output_str += "&"
+    #   if i, change to #
+    if input_str[i] == "i":
+        output_str += "#"
     else:
         output_str += input_str[i]
 
-#   if i, change to #
+
 #   if o, change to +
 #   if u, change to !
 # print ouputs

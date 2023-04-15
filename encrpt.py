@@ -13,10 +13,13 @@ for i in range(len(input_str)):
     #   if i, change to #
     if input_str[i] == "i":
         output_str += "#"
+    #   if o, change to +
+    if input_str[i] == "o":
+        output_str += "+"
     else:
         output_str += input_str[i]
 
 
-#   if o, change to +
+
 #   if u, change to !
 # print ouputs

@@ -7,9 +7,12 @@ for i in range(len(input_str)):
 #   if a, change to *
     if input_str[i] == "a":
         output_str += "*"
+    #   if e, change to &
+    if input_str[i] == "e":
+        output_str += "&"
     else:
         output_str += input_str[i]
-#   if e, change to &
+
 #   if i, change to #
 #   if o, change to +
 #   if u, change to !

@@ -1,5 +1,5 @@
 # 2: Pseudocode
-# ask user for input
+# test: ask user for input
 input_str = input("What is your input string? ")
 # check each character 
 output_str = ""
